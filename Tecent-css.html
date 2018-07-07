@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>css重构考题</title>
+    <style>
+    html,
+    body {
+        margin: 0;
+        padding: 0;
+        position: relative;
+    }
+    div {
+    	background: red;
+    }
+
+    .row {
+        height: 90px;
+        width: 30px;
+        position:absolute;
+        left: 30%;
+        top:35px;
+    }
+
+    .colum {
+        height: 30px;
+        width: 90px;
+        position:absolute;
+        left: 30%;
+        top: 65px;
+        margin-left: -30px;
+    }
+    .row_1 {
+        height: 90px;
+        width: 30px;
+        position:absolute;
+        left: 50%;
+        top: 35px;
+    }
+    .colum_1 {
+        height: 30px;
+        width: 90px;
+        position:absolute;
+        left: 50%;
+        top: 65px;
+        margin-left: -30px;
+    }
+    .center {
+    	position:absolute;
+    	height: 30px;
+    	width: 30px;
+    	left: 50%;
+        top: 65px;
+    }
+    .square{
+    	width: 30px;
+    	height: 30px;
+    	position: absolute;
+    }
+    .square1{
+    	top: 35px;
+    	left: 70%;
+    }
+    .square2{
+    	top: 65px;
+    	left: 70%;
+    }
+    .square3{
+    	top: 95px;
+    	left: 70%;
+    }
+    .square4{
+    	top: 65px;
+    	left: 70%;
+    	margin-left: -30px;
+    }
+    .square5{
+    	top: 65px;
+    	left: 70%;
+    	margin-left: 30px;
+    }
+    </style>
+</head>
+<body>
+<!-- 两个div实现 -->
+<div class="row"></div>
+<div class="colum"></div>
+<!-- 三个div实现 -->
+<div class="row_1"></div>
+<div class="colum_1"></div>
+<div class="center"></div>
+<!-- 五个div实现 -->
+<div class="square square1"></div>
+<div class="square square2"></div>
+<div class="square square3"></div>
+<div class="square square4"></div>
+<div class="square square5"></div>
+</body>
+</html>
